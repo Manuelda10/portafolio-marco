@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #EEEEEE;
+}
+
+body{
+    font-family: 'DM Sans';
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 3rem;
+}
+
+.nav-container nav ul{
+    list-style-type: none;
+}
+
+.nav-container nav ul li{
+    margin-left: 2rem;
+    float: left;
+}
+
+.nav-container nav ul li a {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.inicio{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.inicio h4{
+    font-size: 1.8rem;
+    color: #00ADB5;
+}
+
+.navegador{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+.contact a{
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+}
+
+.inicio h4{
+    font-weight: 600;
+}
+
+.header .principal-cont{
+    height: calc(100vh - 3rem);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal-cont h1{
+    font-size: 4rem;
+    color: #00ADB5;
+}
+
+.principal-cont h3{
+    font-size: 1.6rem;
+}
+
+.principal-cont img{
+    width: 42rem;
+}
+
+h2{
+    font-size: 2.5rem;
+    color: #00ADB5;
+    text-align: center;
+}
+
+.about-me p{
+    text-align: center;
+    margin-top: 0.8rem;
+}
+
+section{
+    width: 100%;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.linea{
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 0.2rem;
+    background-color: #00ADB5;
+}
+
+.skills-cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skills-cont h4{
+    text-align: center;
+    font-size: 1.5rem;
+    color: #00ADB5;
+}
+
+.skill{
+    width: 44%;
+}
+
+.skill ul{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+
+.skill-img{
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.projects-cont{
+    display: none;
+}
+
+.contact-cont{
+    margin-top: 2rem;
+}
+
+.contact-cont p{
+    text-align: center;
+}
+
+.form-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.form-container{
+    width: 90%;
+}
+
+.form-cont-group{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.form-cont-group .cont-input{
+    width: 48%;
+}
+.form-cont-group .cont-textarea{
+    width: 100%;
+}
+
+.form-cont-group input{
+    padding: 5px;
+    width: 100%;
+}
+
+.form-cont-group textarea{
+    padding: 5px;
+    width: 100%;
+    resize: none;
+}
+
+.form-container button{
+    padding: 10px;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: white;
+    background-color: rgb(32, 32, 32);
+    margin-top: 0.5rem;
+}
+
+footer{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    background-color: #00ADB5;
+
+}
+
+.foot-logo{
+    width: 10%;
+}
+
+.politicas{
+    width: 60%;
+    text-align: center;
+}
+
+.foot-logo h4{
+    font-size: 1.8rem;
+    color: white;
+}
+
+.politicas p{
+    font-weight: 600;
+    color: white;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 10%;
+}
+
+.social-media svg{
+    margin-left: 1rem;
+    fill: white;
+    color: white;
+}
+
